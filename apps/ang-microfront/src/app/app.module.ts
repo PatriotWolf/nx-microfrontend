@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { appRoutes } from './app.routes';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { NxWelcomeComponent } from './page/main/main.components';
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
@@ -14,4 +14,5 @@ import { NxWelcomeComponent } from './nx-welcome.component';
   providers: [],
   bootstrap: [AppComponent],
 })
+
 export class AppModule {}
